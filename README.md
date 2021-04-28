@@ -1,2 +1,4 @@
 # Lab-07
-Write your names here.
+* Komal Jabbar
+* Devon McGarth
+* Jen Feng William Liang
