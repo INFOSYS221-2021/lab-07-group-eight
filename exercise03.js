@@ -32,3 +32,38 @@ console.log("First name of person: " + person.firstName);
 for (i in person.phoneNumbers) {
     console.log("Phone number: " + person.phoneNumbers[i].number);
 }
+let student = [
+    {
+   name: "William",
+   id: "4444444",
+   username: "jlia950",
+   majors: "infosys" ,
+   degrees: "infomation systems",
+   courses: [{
+      title: "Infosys 221",
+      catagory: "Infosystems",
+      catagory_number: 221,
+      short_desc: "Programming for business",
+      when_offered: "1st sem"
+   }]
+    },
+    {
+   name: "komal",
+   id: "4444444",
+   username: "jlia950",
+   majors: "infosys" ,
+   degrees: "infomation systems",
+   courses: [{
+      title: "Infosys 221",
+      catagory: "Infosystems",
+      catagory_number: 221,
+      short_desc: "Programming for business",
+      when_offered: "1st sem"
+   }]
+}
+]
+   
+console.log("First name of person: " + student.name);
+for (i in student.courses) {
+    console.log("Courses: " + student.courses[i].title);
+}
