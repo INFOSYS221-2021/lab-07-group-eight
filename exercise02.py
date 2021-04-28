@@ -17,6 +17,7 @@ datetime_object2 = datetime_object
 
 # print yesterday's date and time
 datetime_object2 = datetime_object - datetime.timedelta(days = 1)
+
 print("Yesterday's date and time: ", datetime_object2)
 
 
